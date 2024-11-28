@@ -16,9 +16,7 @@ function iniciarJogo() {
     // Verifica se uma das opções de "melhor de" foi selecionada
     let selecionado = modo(); // Reutiliza a função "modo"
     
-    if (selecionado) {
-        alert(`Jogo iniciado! Modo: Melhor de ${selecionado}`);
-        
+    if (selecionado) {        
         // Habilitar os botões do jogo
         let botoes = document.querySelectorAll('.botao');
         botoes.forEach(botao => botao.removeAttribute('disabled'));
@@ -98,24 +96,24 @@ function escolha(opcao){
 
     if(a === '3'){
         if(pPC >= 2){
-            alert('Voce perdeu! ' + pU +' '+ pPC);
+            alert('Voce perdeu por ' + pU +' x '+ pPC);
             rodada++;
             resetar();
         }
         if(pU >= 2){
-            alert('Voce ganhou! ' + pU +' '+ pPC);
+            alert('Voce ganhou por ' + pU +' x '+ pPC);
             rodada++;
             resetar();
         }
     }
     if(a === '5'){
         if(pPC >= 3){
-            alert('Voce perdeu! ' + pU +' '+ pPC);
+            alert('Voce perdeu por ' + pU +' x '+ pPC);
             rodada++;
             resetar();
         }
         if(pU >= 3){
-            alert('Voce ganhou! ' + pU +' '+ pPC);
+            alert('Voce ganhou por ' + pU +' x '+ pPC);
             rodada++;
             resetar();
         }
