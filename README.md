@@ -1,4 +1,4 @@
-##Trabalho para a matéria de Desvenvolvimento Web (Professora Juliana)
+Trabalho para a matéria de Desvenvolvimento Web (Professora Juliana)
 
 Objetivo: Desenvolver um game interativo utilizando HTML, CSS (com Bootstrap) e JavaScript, aplicando conhecimentos de formulários HTML e manipulação de elementos DOM.
 
